@@ -1,6 +1,6 @@
 # Advent of Code Solutions
 
-See [adventofcode.com/about](https://adventofcode.com/about)
+**[Advent of Code](http://adventofcode.com/about)** is an Advent calendar of small programming puzzles created by [Eric Wastl](http://was.tl/). This repository contains some of my solutions for those puzzles.
 
 - To run Python code: `python3 -m aoc.<YEAR>.day<DAY>` **from the repo root**
 - *Optional* (if you have Pipenv installed): `pipenv run python3 -m aoc.<YEAR>.day<DAY>`
@@ -9,6 +9,8 @@ See [adventofcode.com/about](https://adventofcode.com/about)
 
 It is also possible to use the `aoc` console script of [advent-of-code-data](https://pypi.org/project/advent-of-code-data/) to run and compare all the answers:
 
+![aoc -y 2020](https://user-images.githubusercontent.com/4930426/103483642-f39f8000-4de8-11eb-9bc2-87c7d7b0caad.png)
+
 ## Years
 
-- [Advent of Code 2020](aoc/2020/README.md)
+- [Advent of Code 2020](aoc/2020/)
