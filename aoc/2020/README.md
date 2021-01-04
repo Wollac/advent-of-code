@@ -30,6 +30,6 @@ https://adventofcode.com/2020
      ~          ~        ~    '.'  : [] .'  ~
 ```
 
-I wanted to learn some Python, so this years solutions are written completely in Python.
+I wanted to learn some Python, so this year's solutions are written completely in Python.
 
-There might be a little bit of progression in language proficiency during the course of the advent.
+There might be a bit of progression in language proficiency during the course of the advent.
