@@ -28,9 +28,9 @@ for line in aocd.data.splitlines():
 
 # Part One
 
-print("Part One: The highest seat ID is %d" % max(ids))
+print("Part One: The highest seat ID is", max(ids))
 
 # Part Two
 
-missing, = set(range(min(ids), max(ids))) - ids
-print("Part Two: The missing seat ID is %s" % missing)
+missing = next((i + 1 for i in ids if i + 1 not in ids and i + 2 in ids), None)
+print("Part Two: The missing seat ID is", missing)

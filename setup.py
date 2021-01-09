@@ -19,6 +19,11 @@ setup(
         "numpy >= 1.19",
         "regex",
     ],
+    extras_require={
+        'dev': [
+            'pytest',
+        ]
+    },
     packages=find_packages(),
     python_requires='>=3.8',
     entry_points={
