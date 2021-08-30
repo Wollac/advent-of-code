@@ -18,6 +18,7 @@ setup(
         "networkx",
         "numpy >= 1.19",
         "regex",
+        "scipy",
     ],
     extras_require={
         'dev': [
