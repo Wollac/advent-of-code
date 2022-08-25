@@ -13,4 +13,5 @@ It is also possible to use the `aoc` console script of [advent-of-code-data](htt
 
 ## Years
 
+- [Advent of Code 2019](aoc/2019/)
 - [Advent of Code 2020](aoc/2020/)
