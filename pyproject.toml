@@ -1,0 +1,33 @@
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+name = "advent-of-code"
+version = "0.1.0"
+description = "Solutions for https://adventofcode.com/"
+authors = ["Wolfgang Welz <welzwo@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+repository = "https://github.com/Wollac/advent-of-code"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "Topic :: Games/Entertainment :: Puzzle Games"
+]
+packages = [
+    { include = "aoc" },
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+advent-of-code-data = "^2.0"
+networkx = "^3.2"
+numpy = "^1.26"
+regex = "^2023.10.3"
+scipy = "^1.11.4"
+
+[tool.poetry.group.test.dependencies]
+pytest = "^7.4.3"
+
+[tool.poetry.plugins."adventofcode.user"]
+wollac = "aoc:plugin"

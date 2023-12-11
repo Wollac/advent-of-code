@@ -3,7 +3,7 @@
 **[Advent of Code](http://adventofcode.com/about)** is an Advent calendar of small programming puzzles created by [Eric Wastl](http://was.tl/). This repository contains some of my solutions for those puzzles.
 
 - To run Python code: `python3 -m aoc.<YEAR>.day<DAY>` **from the repo root**
-- *Optional* (if you have Pipenv installed): `pipenv run python3 -m aoc.<YEAR>.day<DAY>`
+- *Optional* (if you have Poetry installed): `poetry run python -m aoc.<YEAR>.day<DAY>`
 
 ### Advent of Code data
 
